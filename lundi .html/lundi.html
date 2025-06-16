@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sneaker Company</title>
+  <link rel="stylesheet" href="lundi.css">
+</head>
+<body>
+  <nav class="navbar">
+   <div class="logo">
+  <img src="logo.svg" alt="Logo Sneakers">
+</div>
+
+    <ul class="nav-links">
+      <li><a href="#">Collections</a></li>
+      <li><a href="#">Men</a></li>
+      <li><a href="#">Women</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+    <div class="right-icons">
+      <img src="icon-cart.svg" alt="Panier" class="cart-icon">
+      <img src="image-avatar.png" alt="Avatar" class="avatar">
+    </div>
+  </nav>
+
+  <main class="container">
+    <section class="left">
+      <img src="image-product-1.jpg" alt="Sneaker principale" class="main-img">
+      <div class="thumbnails">
+        <img src="image-product-1-thumbnail.jpg" alt="Thumb 1">
+        <img src="image-product-2-thumbnail.jpg" alt="Thumb 2">
+        <img src="image-product-3-thumbnail.jpg" alt="Thumb 3">
+        <img src="image-product-4-thumbnail.jpg" alt="Thumb 4">
+      </div>
+    </section>
+
+    <section class="right">
+      <p class="category">SNEAKER COMPANY</p>
+      <h1 class="title">Fall Limited Edition Sneakers</h1>
+      <p class="desc">
+        These low-profile sneakers are your perfect casual wear companion.
+        Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.
+      </p>
+      <div class="price-block">
+        <div class="current-price">$125.00 <span class="discount">50%</span></div>
+        <div class="old-price">$250.00</div>
+      </div>
+      <div class="purchase">
+        <div class="quantity">
+          <button class="qty-btn" id="decrease">-</button>
+          <span id="qty-value">0</span>
+          <button class="qty-btn" id="increase">+</button>
+        </div>
+        <button class="add-to-cart">
+          <img src="icon-cart.svg" alt="Cart"> Add to cart
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <script src="lundi.js"></script>
+</body>
+</html>
